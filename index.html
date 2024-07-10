@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeforces Developers Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search-bar">
+        <form data-userHandle>
+          <input
+            type="text"
+            placeholder="Developer's Handle"
+            id="input-area"
+            data-userKaNaam
+          />
+        </form>
+        <button class="mode-button">
+          <span id="mode-text">Dark Mode</span>
+          <img
+            src="./images/light-bulb-round-svgrepo-com.svg"
+            width="30"
+            height="30"
+            loading="lazy"
+          />
+        </button>
+      </div>
+
+      <div class="loading-page">Loading...</div>
+
+      <div class="welcome-page">Welcome to Dev_Detective</div>
+
+      <div class="not-found">User Not Found</div>
+
+      <div class="display-bar">
+        <div class="profile-pic">
+          <img src="" data-profilePic />
+        </div>
+
+        <div class="profile-info">
+          <h2 data-name></h2>
+          <a href="" data-handle></a>
+          <p data-cityCountry></p>
+          <p data-contri></p>
+          <p data-org></p>
+          <div class="current-info" data-current></div>
+          <div class="max-info" data-max></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
